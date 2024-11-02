@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>Página Principal</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mundo da Música</h1>
+        </header>
+            
+
+        <nav>
+            <ul>
+                <li> <a href="index.html">Home</a> </li>
+                <li> <a href="">Sobre</a> </li>
+                <li> <a href="menu.html">Menu</a> </li>
+                <li> <a href="">História</a> </li>
+                <li> <a href="contato.html">Contato</a> </li>
+            </ul>
+        </nav>
+
+        <sction>
+            <p>Entre em contato com a Loja para obter descontos e vendas promocionais!</p>
+            <form action="contato.html" method="post">
+                <fieldset>
+                    <legend> Contato </legend>
+                    <label for="fname">Nome</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="ftelefone">Telefone</label><br>
+                    <input type="tel" id="ftelefone" name="ftelefone" placeholder="ex.:00-00000000000" pattern="[0-9]{2}-[0-9]{11}" required><br><br>
+                    <label for="fmensagem">Mensagem Adicional</label><br>
+                    <textarea name="fmensagem" rows="4" cols="50"></textarea><br>
+
+                    <button type="submit">Enviar</button>
+                </fieldset>
+
+            </form>
+        </sction>
+
+        <footer>
+            <p> Vitória - ES | Telefone: 123.123.123 </p>
+            <p> Aberto Segunda a Domingo</p>
+        </footer>
+   </div>
+</body>
+</html>

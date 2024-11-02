@@ -1,0 +1,89 @@
+
+/* css da parte a*/
+
+body{
+    background-color: darkred;
+}
+
+.container{
+    background-color: white;
+    width: 960px; /* determina a largura da tag  */
+    margin:auto; /* determina a posição da margem da tag */
+}
+
+header, footer{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: "Audiowide", sans-serif;
+}
+
+a{
+    color: dodgerblue;
+    text-decoration: none; /* É usada para pequenas decorações no texto. Nesse caso, está removendo o sublinhado do link */
+}
+
+.id{
+    width: 960px;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------*/
+
+/* css da parte b */
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 400px;
+    margin:auto;
+}
+
+table td{
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table img{
+
+    border-radius: 25px;
+    width: 100%;
+}
+
+table tr:hover{
+    background-color: blueviolet;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* css da parte c */
+
+input[type=text], textarea, input[type=tel] {
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+input[type=text]:focus, textarea:focus, input[type=tel]:focus{
+    background-color: lightblue;
+}
+
+button{
+    background-color: rgb(94, 7, 7); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------ */
