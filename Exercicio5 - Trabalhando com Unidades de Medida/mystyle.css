@@ -1,0 +1,54 @@
+
+body {
+    background-color: #FFF9BF;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #333;
+}
+
+table {
+    border: 1px solid #ccc; 
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    background-color: #ffffff;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd; 
+}
+
+th {
+    background-color: #f7f7f7;
+    color: #333;
+    font-weight: bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+tr {
+    background-color: #f8f8f8; 
+    border: 1px solid #ddd;
+    margin: 1rem;
+}
+
+/*
+ Resposta da Pergunta do Final do Exercício:
+
+ A exibição da tabela na tela de celular seria prejudicada pois fixando o número de pixels com medidas absolutas 
+ a tabela permaneceria do mesmo jeito imutavel, não se ajustando a tela do celular, e provalvelmente sendo maior que o espaço de visão do usuário.
+
+*/
