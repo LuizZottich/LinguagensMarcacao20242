@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <div>
+        <form action="index.html" method="post">
+            <h1>Cadastrar Usuário</h1>
+            <ol>
+            <fieldset>
+                <li><legend>Dados Pessoais</legend></li>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required><br><br>
+
+                <label for="csenha">Confirmar Senha:</label>
+                <input type="password" id="csenha" name="csenha" required><br><br>
+
+                <label>Idade:</label><br>
+                <input type="radio" id="acima" name="idade" value="Acima17" required>
+                <label for="acima">Acima de 17</label><br>
+
+                <input type="radio" id="abaixoigual" name="idade" value="AbaixoIgual17">
+                <label for="abaixoigual">Abaixo ou igual a 17</label><br>
+            </fieldset>
+
+            <fieldset>
+                <li><legend>Perfil</legend></li>
+                <label for="desc">Descrição:</label><br>
+                <textarea id="desc" name="desc" rows="4" cols="50"></textarea><br><br>
+
+                <label for="ptrab">Perfil de Trabalho:</label>
+                <select name="ptrab" id="ptrab" required>
+                    <option value="FrontDev">Front-End Developer</option>
+                    <option value="BackDev">Back-End Developer</option>
+                </select><br><br>
+
+                <label>Interesses:</label><br>
+                <input type="checkbox" id="programador" name="interesse" value="Programador">
+                <label for="programador">Programador</label><br>
+
+                <input type="checkbox" id="design" name="interesse" value="Design">
+                <label for="design">Design</label><br>
+
+                <input type="checkbox" id="analista" name="interesse" value="Analista">
+                <label for="analista">Analista</label><br>
+            </fieldset>
+            </ol>
+            <button type="submit">Enviar Dados</button>
+        </form>
+    </div>
+</body>
+</html>
